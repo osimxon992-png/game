@@ -167,6 +167,22 @@ body.parvozda #yuklab-tepa { display: none; }
   .yakun-jadval { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .boshqaruv { display: none; }
 }
+/* Yotiq telefon: ekran pastligi kichik */
+@media (max-height: 520px) {
+  .yuqori { padding-top: calc(env(safe-area-inset-top, 0px) + 12px); }
+  #yuklab-tepa { padding: 7px 12px; font-size: 13px; }
+  #boshlash-oyna { bottom: calc(env(safe-area-inset-bottom, 0px) + 16px); gap: 12px; max-width: min(620px, calc(100vw - 40px)); }
+  #boshlash-oyna h1 { font-size: clamp(40px, 13vh, 60px); }
+  #boshlash-oyna p { font-size: 14px; max-width: 62ch; }
+  .tugma.asosiy { padding: 11px 22px; font-size: 15px; }
+  .boshqaruv { display: none; }
+  #hud { padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 12px); }
+  .olchov .q { font-size: 22px; }
+  .oyna { padding: 12px; }
+  .oyna-ichi { padding: 18px 22px 20px; gap: 12px; }
+  .oyna h2 { font-size: 24px; }
+  #toast { top: calc(env(safe-area-inset-top, 0px) + 54px); }
+}
 @media (prefers-reduced-motion: reduce) { #hud, #toast.chiq { transition: none; animation: none; } }
 </style>
 

@@ -1,5 +1,5 @@
 // Kosmik Kema service worker (avtomatik yaratilgan)
-const KESH = "kosmik-kema-79fee4b538";
+const KESH = "kosmik-kema-e31a58c181";
 const FAYLLAR = ["./","index.html","oyin.js","manifest.webmanifest","fonts/fonts.css","fonts/Barlow-400-latin-ext.woff2","fonts/Barlow-400-latin.woff2","fonts/Barlow-500-latin-ext.woff2","fonts/Barlow-500-latin.woff2","fonts/BarlowCondensed-300-latin-ext.woff2","fonts/BarlowCondensed-300-latin.woff2","fonts/BarlowCondensed-500-latin-ext.woff2","fonts/BarlowCondensed-500-latin.woff2","fonts/BarlowCondensed-600-latin-ext.woff2","fonts/BarlowCondensed-600-latin.woff2","fonts/IBMPlexMono-400-latin-ext.woff2","fonts/IBMPlexMono-400-latin.woff2","fonts/IBMPlexMono-500-latin-ext.woff2","fonts/IBMPlexMono-500-latin.woff2","icons/apple-touch-icon.png","icons/favicon-64.png","icons/icon-192.png","icons/icon-512.png","icons/maskable-192.png","icons/maskable-512.png"];
 
 self.addEventListener("install", (e) => {
