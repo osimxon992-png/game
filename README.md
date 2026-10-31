@@ -33,4 +33,4 @@ npm test
 npm run build
 ```
 
-`npm run build` buyrug'i `docs/` papkani qayta yig'adi.
+`npm run build` buyrug'i `docs/` papkani qayta yig'adi. GitHub Pages ham, Vercel ham (`vercel.json`) saytni shu papkadan ochadi.
